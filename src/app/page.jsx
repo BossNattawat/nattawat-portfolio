@@ -52,7 +52,7 @@ export default function Home() {
         <h1 className=' text-5xl font-bold'>Certifiaction</h1>
       </div>
       <div className="hero bg-base-200 min-h-screen">
-        <div className="hero-content grid lg:grid-cols-3 gap-10" id='gride-card'>
+        <div className="hero-content grid sm:grid-cols-2 lg:grid-cols-3 gap-10" id='gride-card'>
           {certificate.map(certificate =>
             <div className="card card-compact w-80 bg-base-100 shadow-xl mx-3" key={certificate.id}>
               <figure><Image src={certificate.img} width={350} height={350} alt='My pic' id='home_pic' className="rounded-lg"></Image></figure>
