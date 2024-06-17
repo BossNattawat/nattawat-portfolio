@@ -9,7 +9,7 @@ function About() {
           <div>
             <h1 className="text-5xl font-bold">About me</h1>
             <p className="py-6 xl:text-xl sm:text-2xl">Hi, my name is Boss. I'm 17-year-old senior high school student from Thailand who wants to be a Full-Stack Developer in the future. My hobbies are listening to music, watching movies, and coding. I will apply to university next year and I hope I can study in the Computer Science.</p>
-            <h2 className='text-3xl font-bold mb-7 sm:text-4xl'>Skills</h2>
+            <h2 className='text-3xl font-bold mb-7 sm:text-3xl'>Skills</h2>
             <div className='grid lg:grid-cols-3 gap-5'>
               <div className="ProgrammingLanguages">
                 <h2 className=' xl:text-xl font-bold pb-4 sm:text-2xl'>Programming Languages</h2>
