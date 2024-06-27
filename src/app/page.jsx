@@ -57,8 +57,8 @@ export default function Home() {
             <div className="card card-compact w-80 bg-base-100 shadow-xl mx-3" key={certificate.id}>
               <figure><Image src={certificate.img} width={350} height={350} alt='My pic' id='home_pic' className="rounded-lg"></Image></figure>
               <div className="card-body">
-                <h2 className="card-title">{certificate.name}</h2>
-                <p className="sm:text-xl lg:text-base">{certificate.description}</p>
+                <h2 className="card-title sm:text-2xl lg:text-base">{certificate.name}</h2>
+                <p className="sm:text-lg lg:text-base">{certificate.description}</p>
               </div>
             </div>
           )}
