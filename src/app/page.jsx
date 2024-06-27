@@ -58,7 +58,7 @@ export default function Home() {
               <figure><Image src={certificate.img} width={350} height={350} alt='My pic' id='home_pic' className="rounded-lg"></Image></figure>
               <div className="card-body">
                 <h2 className="card-title">{certificate.name}</h2>
-                <p>{certificate.description}</p>
+                <p className="sm:text-xl lg:text-base">{certificate.description}</p>
               </div>
             </div>
           )}
