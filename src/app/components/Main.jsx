@@ -9,7 +9,7 @@ function Main() {
           <Image priority={true} src="/profile.png" width={350} height={350} alt='My pic' id='home_pic' className="rounded-lg pb-12 mt-20 lg:ml-40"></Image>
           <div>
             <h1 className="xl:text-6xl text-4xl font-bold" id='greet_text'>Hi!, I'm Nattawat</h1>
-            <h2 className="xl:text-4xl text-3xl font-bold my-4" id="type_text">A secondary 6 student</h2>
+            <h2 className="xl:text-4xl text-2xl font-bold my-4" id="type_text">I'm a secondary 6 student</h2>
             <Link className="btn btn-primary text-lg my-9" href="#contact">Contact Me</Link>
           </div>
         </div>
