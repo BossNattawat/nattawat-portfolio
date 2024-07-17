@@ -2,18 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-    scroll-behavior: smooth;
-}
-
 #type_text{
     letter-spacing: 1px;
     border-right: 3px solid;
-    width: 90%;
+    width: 100%;
     white-space: nowrap;
     overflow: hidden;
     animation: 
-        typing 2s steps(19),
+        typing 2s steps(23),
         cursor .4s step-end infinite alternate;
 }
 
@@ -31,14 +27,6 @@ html{
         width: 250px;
         height: auto;
         margin-left: 0;
-    }
-/* 
-    #greet_text{
-        font-size: 3rem;
-    } */
-
-    #type_text{
-        width: 100%;
     }
 
     #gride-card {
