@@ -6,6 +6,25 @@ html{
     scroll-behavior: smooth;
 }
 
+#type_text{
+    letter-spacing: 1px;
+    border-right: 3px solid;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 2s steps(19),
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor{
+    50% { border-color: transparent }
+}
+
+@keyframes typing{
+    from { width: 0 }
+}
+
 @media screen and (max-width: 430px){
 
     #home_pic{
@@ -13,11 +32,14 @@ html{
         height: auto;
         margin-left: 0;
     }
-
+/* 
     #greet_text{
         font-size: 3rem;
-    }
+    } */
 
+    #type_text{
+        width: 100%;
+    }
 
     #gride-card {
         grid-template-rows: repeat(6, minmax(0, 1fr));

@@ -12,6 +12,7 @@ function Navbar() {
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                 <li><Link href="#home" className='text-xl my-2'>Home</Link></li>
                 <li><Link href="#about" className='text-xl my-2'>About</Link></li>
+                <li><Link href="#project" className='text-xl my-2'>Projects</Link></li>
                 <li><Link href="#certification" className='text-xl my-2'>Certification</Link></li>
             </ul>
             </div>
@@ -22,6 +23,7 @@ function Navbar() {
             <ul className="menu menu-horizontal px-1">
                 <li><Link href="#home" className='text-xl px-5 mx-2 font-semibold'>Home</Link></li>
                 <li><Link href="#about" className='text-xl px-5 mx-2 font-semibold'>About</Link></li>
+                <li><Link href="#project" className='text-xl px-5 mx-2 font-semibold'>Projects</Link></li>
                 <li><Link href="#certification" className='text-xl px-5 mx-2 font-semibold'>Certification</Link></li>
             </ul>
         </div>

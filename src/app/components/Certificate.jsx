@@ -4,8 +4,8 @@ import Image from 'next/image'
 function Certificate({certificate}) {
   return (
     <div>
-        <div className="hero my-10"  id='certification'>
-        <h1 className=' text-5xl font-bold'>Certifiaction</h1>
+      <div className="hero my-10" id='certification'>
+        <h1 className='text-5xl font-bold'>Certifiaction</h1>
       </div>
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content grid sm:grid-cols-2 lg:grid-cols-3 gap-10" id='gride-card'>
