@@ -14,9 +14,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="!scroll-smooth">
       <body className={inter.className}>
-        <Navbar/>
+        
         {children}
-        <Footer/>
+        
       </body>
     </html>
   );

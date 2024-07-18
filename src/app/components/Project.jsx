@@ -7,7 +7,7 @@ function Project({project}) {
         <div>
             <h1 className='xl:text-5xl text-4xl font-bold text-center my-16'>My Projects</h1>
         </div>
-        <div className="hero min-h-screen min-w-screen bg-base-200" data-theme="dim">
+        <div className="hero min-h-screen min-w-screen bg-base-200">
             <div className="hero-content grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-10">
                 
                 {project.map((project)=>
