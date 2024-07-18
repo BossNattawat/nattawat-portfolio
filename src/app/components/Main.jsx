@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function Main() {
   return (
-    <div className="hero min-h-screen min-w-screen bg-base-200" data-theme="dim" id='home'>
+    <div className="hero min-h-screen min-w-screen bg-base-200" id='home'>
         <div className="hero-content flex-col lg:flex-row-reverse">
           <Image priority={true} src="/profile.png" width={350} height={350} alt='My pic' id='home_pic' className="rounded-lg pb-12 mt-20 lg:ml-40 w-60 md:w-[350px]"></Image>
           <div>
