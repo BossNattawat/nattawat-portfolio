@@ -9,7 +9,6 @@ import Certificate from './components/Certificate';
 import { useState } from 'react';
 import Project from './components/Project';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 
 export default function Home() {
 
@@ -33,7 +32,6 @@ export default function Home() {
       <Project project={project}/>
       <Certificate certificate={certificate}/>
       <Contact/>
-      <Footer/>
     </div>
   );
 }
