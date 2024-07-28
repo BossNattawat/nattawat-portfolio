@@ -31,8 +31,8 @@ function Contact() {
     <div className="h-[550px] min-w-full bg-base-200 px-12" id='contact'> {/*min-h-96*/}
         <div className="flex justify-evenly flex-col lg:flex-row">
           <div className="max-w-md" id='contact_info'>
-            <h1 className="text-5xl font-bold my-8">Contact Me</h1>
-            {/* <h2 className="py-1 pt-8 text-xl">Email : </h2> */}
+            <h1 className="text-3xl xl:text-5xl font-bold my-8">Contact Me</h1>
+            <h2 className="py-1 pt-8 text-xl">Email : </h2>
             <h2 className="py-1 text-xl">Tel : 061-242-9861</h2>
             <h2 className="py-1 text-xl">Instagram : nattawat_stw</h2>
           </div>
