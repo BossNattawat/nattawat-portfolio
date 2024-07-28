@@ -11,7 +11,7 @@ function Project({project}) {
             <div className="hero-content grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-10">
                 
                 {project.map((project)=>
-                <div className="card card-compact bg-base-100 shadow-xl xl:w-[30rem] xl:h-[32rem]" key={project.id}>
+                <div className="card card-compact bg-base-100 shadow-xl h-[33rem] xl:w-[30rem] xl:h-[32rem]" key={project.id}>
                     <figure>
                         <Image
                             src={project.img}
