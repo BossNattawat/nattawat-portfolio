@@ -12,6 +12,16 @@ function About() {
             <h2 className='text-3xl font-bold mb-7 sm:text-3xl'>Skills</h2>
             <div className='grid lg:grid-cols-3 lg:gap-5 md:gap-10'>
               <div className="pb-4">
+                <h2 className='xl:text-xl font-bold sm:text-2xl pb-2'>Web Development</h2>
+                <ul className='list-disc'>
+                  <li className='xl:text-lg ml-4 mt-1 sm:text-2xl'>HTML</li>
+                  <li className='xl:text-lg ml-4 mt-1 sm:text-2xl'>CSS</li>
+                  <li className='xl:text-lg ml-4 mt-1 sm:text-2xl'>React js</li>
+                  <li className='xl:text-lg ml-4 mt-1 sm:text-2xl'>Tailwind CSS</li>
+                </ul>
+              </div>
+              
+              <div className="pb-4">
                 <h2 className='xl:text-xl font-bold sm:text-2xl pb-2'>Programming Languages</h2>
                 <ul className='list-disc'>
                   <li className='xl:text-lg ml-4 mt-1 sm:text-2xl'>Python</li>
@@ -19,14 +29,7 @@ function About() {
                   <li className='xl:text-lg ml-4 mt-1 sm:text-2xl'>C language</li>
                 </ul>
               </div>
-              <div className="pb-4">
-                <h2 className='xl:text-xl font-bold sm:text-2xl pb-2'>Web Development</h2>
-                <ul className='list-disc'>
-                  <li className='xl:text-lg ml-4 mt-1 sm:text-2xl'>HTML</li>
-                  <li className='xl:text-lg ml-4 mt-1 sm:text-2xl'>CSS</li>
-                  <li className='xl:text-lg ml-4 mt-1 sm:text-2xl'>React</li>
-                </ul>
-              </div>
+              
               <div className="pb-4">
                 <h2 className='xl:text-xl font-bold sm:text-2xl pb-2'>Databases</h2>
                 <ul className='list-disc'>
