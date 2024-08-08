@@ -19,9 +19,9 @@ export default [
     },
     {
       id: 3,
-      name: 'SOLOLAERN Python',
+      name: 'Samsung Python',
       description: 'This course teaches me the fundamentals of Python.',
-      img:"/python.png"
+      img:"/samsung.jpg"
     },
     {
       id: 4,
