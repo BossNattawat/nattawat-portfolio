@@ -15,10 +15,10 @@ export default [
     },
     {
         id:3,
-        img:"/TodoList.png",
+        img:"/TodoPy.png",
         title:"Todo List",
-        technologies:"HTML, CSS, JavaScript, Tailwind CSS, daisyUI, React js",
-        description:"The Todo List project website is a powerful and intuitive tool designed to help you stay organized and productive. Whether you're managing personal tasks, work projects, or daily chores, our Todo List application offers a seamless experience to keep your life in order."
+        technologies:"Python",
+        description:"A Todo List in Python manages tasks using two main functions: Add, which adds tasks to a list, and Remove, which deletes tasks by index"
     },
     {
         id:4,
@@ -40,5 +40,19 @@ export default [
         title:"Roman Numerals to Integer",
         technologies:"C Language",
         description:"A C program that converts Roman numerals to their corresponding integer values by processing each character and applying Roman numeral rules."
+    },
+    {
+        id:7,
+        img:"/calculator.png",
+        title:"Simple Calculator",
+        technologies:"Python",
+        description:"This Python code takes a simple math problem as input, performs the specified arithmetic operation, and prints the result. It handles basic operations (+, -, *, /) and provides error messages for invalid input or operators."
+    },
+    {
+        id:8,
+        img:"/OddOrEven.png",
+        title:"Odd or Even",
+        technologies:"Python",
+        description:"This Python code collects a list of integers, then separates and prints the even and odd numbers. If a non-positive count is entered, the program exits."
     }
 ]

@@ -30,12 +30,12 @@ function About() {
                 </ul>
               </div>
               
-              <div className="pb-4">
+              {/* <div className="pb-4">
                 <h2 className='xl:text-xl font-bold sm:text-2xl pb-2'>Databases</h2>
                 <ul className='list-disc'>
                   <li className='xl:text-lg ml-4 mt-1 sm:text-2xl'>MySQL</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
