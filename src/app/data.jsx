@@ -13,9 +13,9 @@ export default [
     },
     {
       id: 2,
-      name: 'CS50S',
-      description: 'This course teaches me the scratch of programming by Scratch.',
-      img:"/CS50S.jpg"
+      name: 'CS50P',
+      description: 'This course teaches me the essential fundamentals of Python language.',
+      img:"/CS50P.png"
     },
     {
       id: 3,
