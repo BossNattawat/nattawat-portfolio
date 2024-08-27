@@ -38,8 +38,8 @@ export default [
         id:6,
         img:"/roman.png",
         title:"Roman Numerals to Integer",
-        technologies:"C Language",
-        description:"A C program that converts Roman numerals to their corresponding integer values by processing each character and applying Roman numeral rules."
+        technologies:"Python",
+        description:"A Python program that converts Roman numerals to their corresponding integer values by processing each character and applying Roman numeral rules."
     },
     {
         id:7,
