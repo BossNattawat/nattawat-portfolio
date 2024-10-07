@@ -5,7 +5,9 @@ function Contact() {
 
   const formRef = useRef(null);
 
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbyi7rUwxl0ToXRYobwdJx5EZaZNaqxFYztfFYUKJH-G9zKZ6PwbOV5HnI1kLbLbtIig/exec";
+  const apiKey = process.env.NEXT_PUBLIC_API_KEY
+
+  const scriptUrl = `https://script.google.com/macros/s/${apiKey}/exec`;
 
   const handlerSubmit = async (e) => {
     e.preventDefault();
