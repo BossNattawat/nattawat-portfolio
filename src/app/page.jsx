@@ -10,11 +10,13 @@ import { useState } from 'react';
 import Project from './components/Project';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ProjectMore from './ProjectMore';
 
 export default function Home() {
 
   const [certificate, setCertificate] = useState(data)
   const [project, setProject] = useState(projectData)
+  const [projectMore, setProjectMore] = useState(ProjectMore)
   const [index, setIndex] = useState(0)
 
   const themes = [
@@ -30,7 +32,7 @@ export default function Home() {
       <Navbar next={next}/>
       <Main/>
       <About/>
-      <Project project={project}/>
+      <Project project={project} projectMore={projectMore}/>
       <Certificate certificate={certificate}/>
       <Contact/>
       <Footer/>
